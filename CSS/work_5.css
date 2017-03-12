@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+body{ margin:0; font-size:16px;font-family:Arial,"微软雅黑"; }
+h1,ul,li,p,h2,h3,dl,dt,dd{ margin:0; padding:0; list-style:none;}
+.clear { zoom:1; }
+.clear:after { content:''; display:block; clear:both; }
+.fl { float:left; }
+.fr { float:right; }
+
+
+.content{width: 1180px;margin: 0 auto;}
+
+header{height: 200px;padding: 83px 0px;border-bottom: 1px solid #ffd9c9;}
+header .content{}
+header .logo{margin-left: 10px;}
+header .logo img{}
+header .navigation{margin-left: 154px;}
+header .navigation ul{margin-top: 10px;}
+header .navigation ul li{float: left;margin-left: 117px;}
+header .navigation ul li a{text-decoration: none;color: #333;font-size: 20px;}
+
+.work_show{width: 1180px;margin: 50px auto 0;background: #fafafa;height: 3591px;position: relative;}
+.work_show .detail{padding: 32px 0px 0px 30px;font-size: 14px;color: #666666;border-top: none;}
+.work_show .detail .title{font-size: 24px;color: #333;}
+.work_show .detail .subtext{height: 30px;line-height: 30px;font-size: 18px;color: #666;}
+.work_show .detail .intro{height: 30px;line-height: 30px;font-size: 18px;color: #666;}
+.work_show .detail .intro .split{display: inline-block;margin: 0 20px;}
+.work_show .detail .intro .keyword label{color: #bd502f;}
+.photo{width: 1000px;margin: 0 auto;position: absolute;left:90px ;top: 174px;text-align: center;}
+.photo img{margin-bottom: 40px;}
+.page{width: 1180px;margin: 40px auto 0;height: 120px;}
+.page div{width: 142px;height: 112px;float: left;margin-right: 10px;}
+.page div:nth-of-type(4){border: 1px dashed #999;}
+.page div a{width: 140px;height: 110px;display:inline-block;}
+.page .dot{border: none;width: 90px;margin: 0px 0 0 10px;cursor: pointer;}
+.page .dot a{width: 90px;padding-top: 40px;}
+.notice{font-size: 12px;color: #999;width: 1180px;margin: 50px auto 0;}
+
+footer{text-align: center;padding: 100px;height: 400px;}
+footer .copy{margin-top: 50px;font-size: 16px;}
