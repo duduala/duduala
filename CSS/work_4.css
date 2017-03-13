@@ -6,11 +6,12 @@ h1,ul,li,p,h2,h3,dl,dt,dd{ margin:0; padding:0; list-style:none;}
 .clear:after { content:''; display:block; clear:both; }
 .fl { float:left; }
 .fr { float:right; }
-
+.smallNav{height: 80px;
+padding: 20px 0px;}
 
 .content{width: 1180px;margin: 0 auto;}
 
-header{height: 200px;padding: 83px 0px;border-bottom: 1px solid #ffd9c9;}
+header{height: 200px;padding: 83px 0px;border-bottom: 1px solid #ffd9c9;position: fixed;top: 0px;z-index: 10;background: #fff;width: 100%;}
 header .content{}
 header .logo{margin-left: 10px;}
 header .logo img{}
@@ -19,7 +20,7 @@ header .navigation ul{margin-top: 10px;}
 header .navigation ul li{float: left;margin-left: 117px;}
 header .navigation ul li a{text-decoration: none;color: #333;font-size: 20px;}
 
-.work_show{width: 1180px;margin: 50px auto 0;background: #fafafa;height: 3491px;position: relative;}
+.work_show{width: 1180px;margin: 50px auto 0;background: #fafafa;height: 3491px;position: relative;margin-top: 250px;}
 .work_show .detail{padding: 32px 0px 0px 30px;font-size: 14px;color: #666666;border-top: none;}
 .work_show .detail .title{font-size: 24px;color: #333;}
 .work_show .detail .subtext{height: 30px;line-height: 30px;font-size: 18px;color: #666;}

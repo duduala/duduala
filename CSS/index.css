@@ -23,7 +23,7 @@ header .logo img{}
 header .navigation{margin-left: 154px;}
 header .navigation ul{margin-top: 10px;}
 header .navigation ul li{float: left;margin-left: 117px;}
-header .navigation ul li a{text-decoration: none;color: #333;font-size: 20px;}
+header .navigation ul li span{text-decoration: none;color: #333;font-size: 20px;cursor: pointer;}
 .smallNav{height: 80px;
 padding: 20px 0px;}
 
@@ -84,6 +84,7 @@ height: 42px;font-size: 20px;padding:0 30px}
 .modal_header .intro{ margin-top: 20px;color: #666;font-size: 20px;}
 
 .workShowCon{}
+#page_1{}
 .workShowCon .workItem{width: 352px;margin-right: 65px;margin-top: 100px;border: 1px solid #ccc;}
 .workShowCon .workItem .img{width: 350px;height: 300px;background: #e1dfdf;}
 .workShowCon .workItem .detail{padding: 27px 0px 20px 21px;font-size: 14px;color: #666666;border-top: none;}
@@ -97,8 +98,8 @@ height: 42px;font-size: 20px;padding:0 30px}
 .workShowCon .workItem .detail .intro .keyword label{color: #bd502f;}
 
 .page{margin-top: 100px;text-align:  center;}
-.page .pageItem{width: 50px;height: 38px;display: inline-block;border: 1px solid #333;margin-right: 23px;text-align: center;padding: 8px;cursor: pointer;}
-.page .pageItem:nth-of-type(1){border: 1px solid #999;color: #999;}
+.page .pageItem{width: 50px;height: 38px;display: inline-block;border: 1px solid #333;margin-right: 23px;text-align: center;padding: 8px;cursor: pointer;color: #333;}
+.page .active{border: 1px solid #999;color: #999;}
 
 .listenCon{line-height: 60px;font-size: 20px;margin:100px 0px 200px 0px;text-align: center;color: #666;}
 
