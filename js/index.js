@@ -30,7 +30,7 @@ $(function(){
     $("#page_1").show();       //下一个页面显示
     $(".page .pageItem").removeClass("active");     //所有导航条都清除样式
     $("#pageItem_1").addClass("active");   //当前页面的那个导航添加样式
-    
+    $("body,html").animate({scrollTop:"2830px"},300);
      });
      
       $("#pageItem_2").click(function(){
@@ -39,7 +39,7 @@ $(function(){
     $("#page_2").show();       //下一个页面显示
     $(".page .pageItem").removeClass("active");     //所有导航条都清除样式
     $("#pageItem_2").addClass("active");   //当前页面的那个导航添加样式
-    
+    $("body,html").animate({scrollTop:"2830px"},300);
      });
      
       $("#pageItem_3").click(function(){
@@ -48,7 +48,7 @@ $(function(){
     $("#page_3").show();       //下一个页面显示
     $(".page .pageItem").removeClass("active");     //所有导航条都清除样式
     $("#pageItem_3").addClass("active");   //当前页面的那个导航添加样式
-    
+    $("body,html").animate({scrollTop:"2830px"},300);
      });
       $("#pageItem_4").click(function(){
       //当前这个page的索引加1，指的是下一页
@@ -56,7 +56,7 @@ $(function(){
     $("#page_4").show();       //下一个页面显示
     $(".page .pageItem").removeClass("active");     //所有导航条都清除样式
     $("#pageItem_4").addClass("active");   //当前页面的那个导航添加样式
-    
+    $("body,html").animate({scrollTop:"2830px"},300);
      });
       $("#pageItem_5").click(function(){
       //当前这个page的索引加1，指的是下一页
@@ -64,7 +64,7 @@ $(function(){
     $("#page_5").show();       //下一个页面显示
     $(".page .pageItem").removeClass("active");     //所有导航条都清除样式
     $("#pageItem_5").addClass("active");   //当前页面的那个导航添加样式
-    
+    $("body,html").animate({scrollTop:"2830px"},300);
      });
      
      /*  $("#pageItem_N").click(function(){
